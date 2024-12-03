@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #e0f7e4;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 span.text-help {
+    border-bottom: 5px solid red;
+    font-size: 130px;
+    font-weight: bold;
+}
+
+a {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.mt-4 {
+    font-size: 120px;
+    height: 200px;
+    width: 500px;
+}
+
+.custom-input {
+    max-width: 200%;
+    width: 90%;
+    background-color: rgba(128, 128, 128, 0.729);
+    font-family: "Poppins", sans-serif;
+}
+
+.btn-success {
+    background: linear-gradient(to right, #7dbf65, #4e944f);
+    border: none;
+}
+
+/* Alignment adjustment to ensure the word "help" aligns with the input fields */
+.align-start {
+    margin-top: calc(1.75rem + 5px);
+
+}
+
+
+@media (max-width: 768px) {
+
+    .mt-4,
+    h1 span.text-help {
+        font-size: 130px;
+        height: 200px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .mt-4,
+    h1 span.text-help {
+        font-size: 75px;
+        height: 150px;
+        width: 100%;
+    }
+}

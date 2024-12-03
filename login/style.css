@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    font-family: "Montserrat";
+}
+
+/* Ensure the image occupies the full width of its container */
+.image-placeholder {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 100vh;
+    overflow: hidden;
+    /* Hide any overflow */
+
+}
+
+/* Style for the image */
+.image-placeholder img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Cover the container without distortion */
+}
+
+/* Add some spacing and styling to the form container */
+.form-container {
+    background-color: #fff;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    ;
+}
+
+
+/* Add padding to input fields */
+.form-control {
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* Style the login button */
+.btn-success {
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #132A13;
+}
+
+/* Center the form heading and add some spacing */
+h2 {
+    margin-bottom: 1.5rem;
+}
+
+/* Center the paragraph and adjust spacing */
+p {
+    margin-bottom: 1.5rem;
+}
+
+/* Adjust the spacing and style for the Sign Up link */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

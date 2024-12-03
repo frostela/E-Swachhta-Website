@@ -1,0 +1,159 @@
+/* General styling for the card grid */
+body{
+    background-color: #E4FFE2;
+    font-family: "Poppins", sans-serif;
+}
+/* Navbar Styles */
+.navbar {
+    padding: 0.5rem 1rem;
+}
+.navbar-brand-img{
+    height: 50px; 
+    width:auto; 
+}
+
+.icon-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px; 
+    height: 50px; 
+    background-color: #f5f5f5; 
+    border-radius: 50%; 
+    border: 2px solid #ffffff; 
+}
+
+.custom-icon {
+    font-size: 24px; /* Adjust icon size as needed */
+    color: #000000; /* Icon color */
+}
+a{
+    text-decoration:none;
+}
+.card {
+    border: 2px solid #28a745; /* Green border */
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 60%; 
+    padding-top: 60%; 
+    position: relative; /* Required for the content to be centered */
+    margin: 0 auto; /
+}
+
+/* Adjust margin between cards */
+.col-4 {
+    margin-bottom: 15px; /* Space below each card */
+}
+
+.mb-4{
+    color: #132A13;
+}
+/* Styling for card body */
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; /* Position content over the square */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9rem; /* Adjust text size for smaller boxes */
+    color: #28a745; 
+    transition: color 0.3s ease;
+    border: 2px solid black;
+   
+}
+
+.card-body:hover {
+    color: white; 
+}
+
+.card:hover {
+    transform: translateY(-5px) scale(1.03); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+.category-box {
+    position: relative;
+    overflow: hidden;
+}
+.category-box .dot-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 16px;
+    color: #000;
+}
+.category-box:hover .dot-icon {
+    color: #44afc0; 
+}
+/* Responsive grid adjustment */
+@media (max-width: 992px) {
+    .col-4 {
+        flex: 0 0 50%; /* 2 columns on medium screens */
+        max-width: 50%;
+        margin-bottom: 10px; /* Reduced space below each card on medium screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .col-4 {
+        flex: 0 0 100%; /* 1 column on small screens */
+        max-width: 100%;
+        margin-bottom: 10px; /* Reduced space below each card on small screens */
+    }
+
+    .card-body {
+        font-size: 0.8rem; /* Adjust text size on smaller screens */
+    }
+}
+
+/* Footer Styles */
+.site-footer {
+    background-color: #343a40;
+    padding: 2rem 0;
+}
+
+.footer-logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    flex-grow: 1;
+    line-height: 0%;
+}
+
+.footer-logo-img {
+    height: 130px; 
+    width: auto;  
+    
+}
+
+.footer-brand-text {
+    margin-top: 0.5rem;
+    color: #fff;
+    text-align:right;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-social {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.footer-social-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-social-link {
+    color: #fff;
+   
+}
+
+.footer-social-link:hover {
+    color: #ddd;
+}

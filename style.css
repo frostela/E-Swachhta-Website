@@ -1,0 +1,168 @@
+/* General Body Styles */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    color: #132A13;
+    background-color:#E4FFE2;
+    
+}
+
+.hero-carousel {
+    margin-bottom: 2rem;
+}
+
+.carousel-item img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.carousel-indicators li {
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000000 !important;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 0.5;
+    transition: opacity 0.6s ease;
+}
+
+/* Statistics Section Styles */
+.statistics {
+    background-color: #E4FFE2;
+    padding: 2rem 0;
+}
+
+.statistics h3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.statistics p {
+    font-size: 1.25rem;
+    color: #6c757d;
+}
+
+/* Map Section Styles */
+.service-area {
+    margin: 2rem 0;
+    padding: 2rem;
+}
+
+.service-area img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* How It Works Section Styles */
+.how-it-works {
+    background-color: #E4FFE2; 
+}
+.how-it-works h4{
+    text-decoration: underline;
+}
+.how-step {
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+}
+
+.how-step-img {
+    margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+    .how-step-img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* Trusted By Section Styles */
+.trusted-by {
+    background-color: #E4FFE2;
+    padding: 2rem 0;
+
+}
+
+.trusted-by h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.trusted-by img {
+    height: 90px;
+    margin: 0.5rem;
+}
+
+/* Footer Styles */
+.site-footer {
+    background-color: #132A13;
+    padding: 2rem 0;
+}
+
+.footer-logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-grow: 1;
+    line-height: 0%;
+}
+
+.footer-logo-img {
+    height: 130px;
+    /* Set height to 100px */
+    width: auto;
+    /* Set width to 130px */
+
+}
+
+.footer-brand-text {
+    margin-top: 0.5rem;
+    color: #fff;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-social {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.footer-social-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-social-link {
+    color: #fff;
+
+}
+
+.footer-social-link:hover {
+    color: #ddd;
+}
+
+/* Buttons */
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
